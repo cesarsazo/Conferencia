@@ -1,0 +1,17 @@
+<div>
+    <form (submit)="sendData($event)">
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" class="form-control" id="nombre">
+        </div>
+        <div class="form-group">
+          <label for="apellido">Apellido</label>
+          <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+        </div>
+        <div class="form-group">
+            <label for="avatar">Avatar</label>
+            <input type="url" class="form-control" id="avatar" placeholder="URL">
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+</div>

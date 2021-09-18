@@ -1,0 +1,20 @@
+<div>
+    <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Avatar</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let alumno of alumnosArray">
+            <td>{{alumno.first_name}}</td>
+            <td>{{alumno.last_name}}</td>
+            <td>
+                <img src="{{alumno.avatar}}" alt="{{alumno.first_name}}">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+</div>
